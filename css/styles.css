@@ -1,6 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap');
 
-
 * {
     box-sizing: border-box;
     margin: 0;
@@ -17,14 +16,17 @@ body{
 }
 
 main{
+    margin-bottom: 35px;
     width: 320px;
     height: 497px;
     background-color: hsl(0, 0%, 100%);
     border-radius: 20px;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0, 0.05);
 }
 
 figure{
     padding: 16px;
+    
 }
 
 .card_img img{
@@ -50,5 +52,5 @@ p{
     color: hsl(220, 15%, 55%);
 }
 
-.attribution { font-size: 11px; text-align: center; }
+.attribution { font-size: 13px; text-align: center; font-weight: 600;}
 .attribution a { color: hsl(228, 45%, 44%); }
